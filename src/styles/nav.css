@@ -1,31 +1,21 @@
-.nav-wrapper{
-    background-color: lightgray;
-    margin: auto;
+.name {
+    font-size: 70px;
+    color: brown;
+    padding-bottom: 1%;
 }
 
-nav .brand-logo {
-    font-size: 55px !important;
-    padding: 0;
+.nav-link {
+    font-size: 35px !important;
     color: brown !important;
-    font-weight: bold;
-    margin: auto;
+    --bs-nav-tabs-link-active-bg: tan;
+    --bs-nav-tabs-link-active-border-color: tan;
+    --bs-nav-tabs-link-hover-border-color: tan; 
 }
 
-
-.nav-mobile{
-    margin: auto !important;
+.nav {
+    --bs-nav-link-hover-color: black;
 }
 
-.nav-side:hover{
-    background-color: tan;
-}
-
-.nav-text{
-    color: brown !important;
-    font-size: 40px !important;
-    margin: auto;
-}
-
-.nav-text:hover{
-    color: black !important;
+.nav-tabs {
+    --bs-nav-tabs-border-color: tan !important; 
 }
