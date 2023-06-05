@@ -1,0 +1,31 @@
+.nav-wrapper{
+    background-color: lightgray;
+    margin: auto;
+}
+
+nav .brand-logo {
+    font-size: 55px !important;
+    padding: 0;
+    color: brown !important;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+.nav-mobile{
+    margin: auto !important;
+}
+
+.nav-side:hover{
+    background-color: tan;
+}
+
+.nav-text{
+    color: brown !important;
+    font-size: 40px !important;
+    margin: auto;
+}
+
+.nav-text:hover{
+    color: black !important;
+}
