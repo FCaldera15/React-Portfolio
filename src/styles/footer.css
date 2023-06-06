@@ -1,0 +1,21 @@
+.page-footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color: lightgray;
+}
+
+.iconPacks {
+    color: brown;
+}
+
+.iconPacks:hover {
+    color: tan;
+}
+
+.iconRows {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
