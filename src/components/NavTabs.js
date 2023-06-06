@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='wholeNav z-depth-3'>
       <h1 className='center name'>Francisco's Portfolio</h1>
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs center">
         <li className="nav-item">
           <a
             href="#about"

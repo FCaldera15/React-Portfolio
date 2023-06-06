@@ -1,5 +1,5 @@
 import React from "react"
-import '../styles/footer.css'
+import './styles/footer.css'
 import { Github } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { EnvelopeAtFill } from "react-bootstrap-icons";
