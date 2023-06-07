@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/about.css"
-import placeholder from '../images/placeholder.jpg'
+import PPicture from "../images/portfolio-pic.jpg"
 
 
 export default function About() {
@@ -10,7 +10,7 @@ export default function About() {
         <div className="col s12 m5">
           <div className="card-panel large z-depth-2">
             <div>
-              <img src={placeholder} alt='not working' />
+              <img className='portfolio-pic' src={PPicture} alt='not working' />
             </div>
             <h1 className='white-text'>About Me</h1>
             <p className="white-text summary">Hello! My name is Francisco Caldera, I was born in Dallas, TX but I have been living in Terrell, TX my whole

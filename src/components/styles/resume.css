@@ -1,0 +1,11 @@
+.center{
+    padding-bottom: 1% !important;
+}
+
+.box-1{
+    margin-top: 2% !important;
+}
+
+.box-2 .center li{
+    font-size: 25px !important;
+}
