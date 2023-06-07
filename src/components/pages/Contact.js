@@ -22,7 +22,7 @@ export default function Contact() {
         </div>
         <div class="input-field col s12">
           <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label className='active' htmlFor="textarea1">Textarea</label>
+          <label className='active' htmlFor="textarea1">Additional Comments</label>
         </div>
         <button className="btn" type="submit" name="action">Submit
           <i className="material-icons submitbtn right">send</i>

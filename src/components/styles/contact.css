@@ -19,3 +19,11 @@ padding: 4% 2%;
     background-color: tan !important;
     color: brown !important;
 }
+
+.field{
+    margin-bottom: 15%
+}
+
+.input-field label{
+    color: black;
+}
