@@ -1,0 +1,21 @@
+.field .container {
+max-height: 100%;
+justify-content: center;
+background-color: lightgrey;
+margin-top: 5%;
+padding: 4% 2%;
+}
+
+.center{
+    padding-bottom: 3%;
+}
+
+.btn{
+    background-color: brown !important;
+    color: lightgrey !important;
+}
+
+.btn:hover{
+    background-color: tan !important;
+    color: brown !important;
+}

@@ -1,22 +1,33 @@
 import React from 'react';
+import "../styles/contact.css"
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className='field'>
+      <form className="container z-depth-5">
+        <h1 className='center'>Please Fill Out The Form</h1>
+        <div className="row">
+          <div className="input-field col s6">
+            <input placeholder="Placeholder" id="first_name" type="text" className="validate" />
+            <label className='active' htmlFor="first_name">First Name</label>
+          </div>
+          <div className="input-field col s6">
+            <input id="last_name" type="text" className="validate" />
+            <label className='active' htmlFor="last_name">Last Name</label>
+          </div>
+        </div>
+        <div className="input-field col s12">
+          <input id="email" type="email" className="validate" />
+          <label className='active' htmlFor="email">Email</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label className='active' htmlFor="textarea1">Textarea</label>
+        </div>
+        <button className="btn" type="submit" name="action">Submit
+          <i className="material-icons submitbtn right">send</i>
+        </button>
+      </form>
     </div>
   );
 }

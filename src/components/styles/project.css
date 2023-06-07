@@ -1,0 +1,46 @@
+.card-action, .card-content{
+    background-color: tan !important;
+}
+
+.card-action{
+    position: relative !important;
+}
+
+.imageTag {
+    object-fit: cover;
+}
+
+.projectPanel{
+    display: grid;
+    padding: 1%;
+    grid-template-rows: 400px 400px;
+	grid-template-columns: 500px 500px 500px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+}
+
+.card:hover{
+    box-shadow: 5px 3px 3px brown;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.button-icon {
+    background-color: brown;
+}
+
+.button-icon:hover{
+    background-color: tan;
+    color: brown;
+}
+
+ul:not(.browser-default) {
+    padding-left: 1%;
+    list-style-type: none;
+}

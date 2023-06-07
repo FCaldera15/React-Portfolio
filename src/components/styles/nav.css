@@ -18,4 +18,5 @@
 
 .nav-tabs {
     --bs-nav-tabs-border-color: tan !important; 
+    justify-content: center;
 }

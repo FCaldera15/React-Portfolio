@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/nav.css';
+import './styles/nav.css';
 
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='wholeNav z-depth-3'>
       <h1 className='center name'>Francisco's Portfolio</h1>
-      <ul className="nav nav-tabs center">
+      <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
             href="#about"
