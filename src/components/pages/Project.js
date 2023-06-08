@@ -51,53 +51,69 @@ export default function Project() {
 
                 <li className="card medium">
                     <div className="card-image">
-                        <img className='imageTag' src={Workday} alt='' />
+                        <a href='https://fcaldera15.github.io/work-day-schedule/'><img className='imageTag' src={Workday} alt='' /></a>
                     </div>
                     <div className="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <h3>Workday Schedule</h3>
+                        <p>This application enables users to use this page as a daily planner and save text inside the box corresponding to what time of day you want to save it in.</p>
+                        <h3>Technologies Used:</h3>
+                        <h5>HTML, CSS, JavaScript, Localstorage, DayJS</h5>
                     </div>
                     <div className="card-action">
-                        <button className="btn-small button-icon"><i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button>
+                        <a href='https://github.com/FCaldera15/work-day-schedule'>
+                            <button className="btn-small button-icon">
+                                <i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button></a>
                     </div>
                 </li>
 
                 <li className="card medium">
                     <div className="card-image">
-                        <img className='imageTag' src={Tracker} alt='' />
+                        <a href='https://drive.google.com/file/d/1SLH_h4GQnLhAJiTaJkbZeeOfeTGfdKnw/view'><img className='imageTag' src={Tracker} alt='' /></a>
                     </div>
                     <div className="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <h3>Employee Tracker</h3>
+                        <p>This repository is used to be able to view and manage the departments, roles, and employees in a company so that they can organize and plan a business</p>
+                        <h3>Technologies Used:</h3>
+                        <h5>Node.js, Inquirer, MySQL</h5>
                     </div>
                     <div className="card-action">
-                        <button className="btn-small button-icon"><i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button>
+                        <a href='https://github.com/FCaldera15/Employee-Tracker'>
+                            <button className="btn-small button-icon">
+                                <i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button></a>
                     </div>
                 </li>
 
                 <li className="card medium">
                     <div className="card-image">
-                        <img className='imageTag' src={Project2} alt='' />
+                        <a href='https://thawing-peak-13246.herokuapp.com/'><img className='imageTag' src={Project2} alt='' /></a>
                     </div>
                     <div className="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <h3>mySteamlist</h3>
+                        <p>The user would like a webpage designed to be able to add Steam games to a wishlist or add to favorite games, and also be able to rate and review the games.</p>
+                        <h3>Technologies Used:</h3>
+                        <h5>Handlebars.js, Express.js, MySQL, Sequalize ORM</h5>
                     </div>
                     <div className="card-action">
-                        <button className="btn-small button-icon"><i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button>
+                        <a href='https://github.com/dawn-kline-m/My-Steam-List'>
+                            <button className="btn-small button-icon">
+                                <i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button></a>
                     </div>
                 </li>
 
                 <li className="card medium">
                     <div className="card-image">
-                        <img className='imageTag' src={Quiz} alt='' />
+                        <a href='https://fcaldera15.github.io/Code-Quiz/'><img className='imageTag' src={Quiz} alt='' /></a>
                     </div>
                     <div className="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information.
-                            I am convenient because I require little markup to use effectively.</p>
+                        <h3>Code Quiz</h3>
+                        <p>This application enables users to take a quiz and challenge others on who can get the higher score in the scoreboard page.</p>
+                        <h3>Technologies Used:</h3>
+                        <h5>HTML, CSS, JavaScript</h5>
                     </div>
                     <div className="card-action">
-                        <button className="btn-small button-icon"><i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button>
+                        <a href='https://github.com/FCaldera15/Code-Quiz'>
+                            <button className="btn-small button-icon">
+                                <i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button></a>
                     </div>
                 </li>
             </ul>
