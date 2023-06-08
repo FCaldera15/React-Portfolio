@@ -4,6 +4,8 @@ import { Github } from "react-bootstrap-icons";
 import { Linkedin } from "react-bootstrap-icons";
 import { EnvelopeAtFill } from "react-bootstrap-icons";
 
+
+// Footer containing icons that go to different social networks
 function Footer() {
     return (
         <footer className="page-footer">

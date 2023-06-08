@@ -2,7 +2,8 @@ import React from 'react';
 import "../styles/resume.css"
 import Resume from '../images/Resume.pdf'
 
-export default function Blog() {
+// Resume page that contains the resume button and lists of languages and technologies learned
+export default function Resumes() {
   return (
 
     <div className='center'>

@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-
+  // render the new page when clicked on
   const renderPage = () => {
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
     }
     return <About />;
   };
-
+  // change from current page to the new page
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (

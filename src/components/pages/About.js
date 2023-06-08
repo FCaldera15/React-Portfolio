@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/about.css"
 import PPicture from "../images/portfolio-pic.jpg"
 
-
+// Page that contains the about me information
 export default function About() {
   return (
     <div>

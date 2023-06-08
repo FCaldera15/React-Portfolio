@@ -8,6 +8,8 @@ import Tracker from '../images/Employee-Tracker.png';
 import Project2 from '../images/project2.png'
 import Quiz from '../images/quiz.png'
 
+
+// Page that contains the projects worked on 
 export default function Project() {
     return (
         <div className='flexPanel'>

@@ -1,6 +1,8 @@
 import React from 'react';
 import "../styles/contact.css"
 
+
+// Page containing the contact form 
 export default function Contact() {
   return (
     <div className='field'>

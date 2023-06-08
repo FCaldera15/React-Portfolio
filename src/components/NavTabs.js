@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/nav.css';
 
-
+// Nav function on my header, to about to change pages 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='wholeNav z-depth-3'>
