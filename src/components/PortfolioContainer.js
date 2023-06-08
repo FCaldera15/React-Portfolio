@@ -23,6 +23,7 @@ export default function PortfolioContainer() {
     }
     return <About />;
   };
+
   // change from current page to the new page
   const handlePageChange = (page) => setCurrentPage(page);
 
