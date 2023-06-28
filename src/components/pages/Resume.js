@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/resume.css"
-import Resume from '../images/Resume-UP.pdf'
+import Resume from '../images/Cisco-Resume.pdf'
 
 // Resume page that contains the resume button and lists of languages and technologies learned
 export default function Resumes() {
