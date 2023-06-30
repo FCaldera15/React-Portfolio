@@ -3,11 +3,10 @@ import "../styles/project.css"
 import { Github } from "react-bootstrap-icons";
 import PWA from '../images/PWA-Text-Editor.png';
 import Planets from '../images/plantes.png';
-import Workday from '../images/workday.png';
+import Book from '../images/Book.png';
 import Tracker from '../images/Employee-Tracker.png';
 import Project2 from '../images/project2.png'
-import Quiz from '../images/quiz.png'
-
+import FlavorFile from '../images/TheFlavorFile.png'
 
 // Page that contains the projects worked on 
 export default function Project() {
@@ -53,16 +52,16 @@ export default function Project() {
 
                 <li className="card medium">
                     <div className="card-image">
-                        <a href='https://fcaldera15.github.io/work-day-schedule/'><img className='imageTag' src={Workday} alt='' /></a>
+                        <a href='https://infinite-ocean-14632.herokuapp.com/'><img className='imageTag' src={Book} alt='' /></a>
                     </div>
                     <div className="card-content">
                         <h3>Workday Schedule</h3>
                         <p>This application enables users to use this page as a daily planner and save text inside the box corresponding to what time of day you want to save it in.</p>
                         <h3>Technologies Used:</h3>
-                        <h5>HTML, CSS, JavaScript, Localstorage, DayJS</h5>
+                        <h5>React.js, MongoDB, GraphQL, Apollo Express, jsonwebtoken, Express.js</h5>
                     </div>
                     <div className="card-action">
-                        <a href='https://github.com/FCaldera15/work-day-schedule'>
+                        <a href='https://github.com/FCaldera15/Book-Search-Engine'>
                             <button className="btn-small button-icon">
                                 <i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button></a>
                     </div>
@@ -87,7 +86,7 @@ export default function Project() {
 
                 <li className="card medium">
                     <div className="card-image">
-                        <a href='https://thawing-peak-13246.herokuapp.com/'><img className='imageTag' src={Project2} alt='' /></a>
+                        <a href='https://ancient-sea-83306-fd93f66bba61.herokuapp.com/'><img className='imageTag' src={Project2} alt='' /></a>
                     </div>
                     <div className="card-content">
                         <h3>mySteamlist</h3>
@@ -104,16 +103,16 @@ export default function Project() {
 
                 <li className="card medium">
                     <div className="card-image">
-                        <a href='https://fcaldera15.github.io/Code-Quiz/'><img className='imageTag' src={Quiz} alt='' /></a>
+                        <a href='https://ancient-forest-88387-23a1d890f447.herokuapp.com/'><img className='imageTag' src={FlavorFile} alt='' /></a>
                     </div>
                     <div className="card-content">
                         <h3>Code Quiz</h3>
-                        <p>This application enables users to take a quiz and challenge others on who can get the higher score in the scoreboard page.</p>
+                        <p>This application enables users to be able to add, view, edit or delete a recipe</p>
                         <h3>Technologies Used:</h3>
-                        <h5>HTML, CSS, JavaScript</h5>
+                        <h5>JavaScript, React.js, Node.js, Express.js, CSS, GraphQL, MongoDB, Mongoose, API, JWT</h5>
                     </div>
                     <div className="card-action">
-                        <a href='https://github.com/FCaldera15/Code-Quiz'>
+                        <a href='https://github.com/jdiego-1805/TheFlavorFile'>
                             <button className="btn-small button-icon">
                                 <i className="icon-button left"><Github className='project-githubIcon' /></i>Repository</button></a>
                     </div>
