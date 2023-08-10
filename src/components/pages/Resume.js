@@ -16,6 +16,7 @@ export default function Resumes() {
       <div className='box-2'>
         <ul className='center'>
           <li>JavaScript</li>
+          <li>Python</li>
         </ul>
       </div>
 
